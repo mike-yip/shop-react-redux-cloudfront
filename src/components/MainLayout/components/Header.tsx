@@ -29,11 +29,11 @@ export default function Header() {
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
           <Link
             component={RouterLink}
-            sx={{ color: "inherit", "background-color": 'green' }}
+            sx={{ color: "inherit" }}
             underline="none"
             to="/"
           >
-            Mike's Store!
+            My Store!
           </Link>
         </Typography>
 
