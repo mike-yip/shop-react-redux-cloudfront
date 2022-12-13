@@ -33,7 +33,7 @@ export default function Header() {
             underline="none"
             to="/"
           >
-            Mike's Store!
+            Mike's Store (automated deployment and invalidate cache)!
           </Link>
         </Typography>
 
