@@ -1,3 +1,9 @@
+# CloudFront URL
+https://d2a0gt7rys3z71.cloudfront.net/
+
+# S3 URL
+http://shop-react-redux-cloudfront-mike.s3-website-us-west-2.amazonaws.com/
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
