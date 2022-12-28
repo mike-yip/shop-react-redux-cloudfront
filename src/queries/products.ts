@@ -56,6 +56,16 @@ export function useUpsertAvailableProduct() {
   );
 }
 
+export function useInsertAvailableProduct() {
+  return useMutation((values: AvailableProduct) =>
+    axios.post<AvailableProduct>(`${API_PATHS.bff}/products`, values, {
+      headers: {
+        Authorization: `Basic ${localStorage.getItem("authorization_token")}`,
+      },
+    })
+  );
+}
+
 export function useDeleteAvailableProduct() {
   return useMutation((id: string) =>
     axios.delete(`${API_PATHS.bff}/products/${id}`, {
